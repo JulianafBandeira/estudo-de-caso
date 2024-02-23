@@ -2,6 +2,9 @@ package com.cursouml.estudodecaso.domain;
 
 import com.cursouml.estudodecaso.domain.enums.EstadoPagamento;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class PagamentoComCartao extends Pagamento{
 	private static final long serialVersionUID = 1L;
 
